@@ -25,7 +25,7 @@ void add_v2(Point &a, Point &b) {
     a.y += b.y;
 }
 
-Point mid_point(Point a, Point b) {
+Point mid_point(const Point a,const Point b) {
     int x = (a.x + b.x)/2.0;
     int y = (a.y + b.y)/2.0;
 
